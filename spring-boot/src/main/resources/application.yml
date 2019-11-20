@@ -1,0 +1,9 @@
+spring.autoconfigure.exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+spring:
+  thymeleaf:
+    enabled: false     # Disable Thymeleaf
+  datasource:
+    type: org.springframework.jdbc.datasource.SimpleDriverDataSource
+
+server:
+  port: 18442   # HTTP (Tomcat) port
